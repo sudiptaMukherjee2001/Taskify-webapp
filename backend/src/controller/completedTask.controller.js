@@ -4,7 +4,7 @@ const getAllCompletedTask = async (req, res) => {
 
     try {
 
-        const { id } = req.params;
+        const { id } = req.params; //  it will get the params
 
         if (!id) {
             return res
