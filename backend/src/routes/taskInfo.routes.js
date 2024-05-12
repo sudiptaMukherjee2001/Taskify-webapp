@@ -8,6 +8,7 @@ import getAllTask from "../controller/allTask.controller.js";
 const router = Router();
 
 router.route("/").get(getAllTask);
+
 router.route("/creation").post(handelTaskInformation);
 router.route("/completed-task/:id").get(getAllCompletedTask);
 router.route("/update/:id").put(handelUpdateController);

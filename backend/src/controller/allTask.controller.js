@@ -7,7 +7,7 @@ const getAllTask = async (req, res) => {
         if (!allTask) {
             res
                 .status(401)
-                .json({ Error: "No task is found !!!" })
+                .json({ Error: "No task is found !!!" });
         }
 
         console.log("All task ==>>", allTask);
