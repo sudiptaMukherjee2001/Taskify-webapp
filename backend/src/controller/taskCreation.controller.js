@@ -1,6 +1,6 @@
 import { taskInfo } from "../model/task-info.model.js";
 
-const handelTaskInformation = async (req, res) => {
+const handelTaskCreation = async (req, res) => {
     /*
     1. get all the task from user
     2. check fields are empty or not . If fields are empty then return a error
@@ -36,4 +36,4 @@ const handelTaskInformation = async (req, res) => {
 
 }
 
-export default handelTaskInformation;
+export default handelTaskCreation;
